@@ -1,0 +1,20 @@
+{
+  "name": "fcc-stockmarket-app",
+  "version": "1.0.0",
+  "description": "FCC challenge",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "author": "awan21clouds",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "dotenv": "^2.0.0",
+    "express": "^4.13.4",
+    "mongodb": "^2.1.8",
+    "socket.io": "^1.4.5",
+    "yahoo-finance": "^0.2.12"
+  }
+}
